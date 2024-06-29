@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Quien Soy</title>
+    <style>
+        body {
+
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            padding: 20px;
+            overflow: hidden;
+        }
+        #cabecera {
+            background-color: #333;
+            color: white;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #e8491d 3px solid;
+        }
+        #cabecera h1 {
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            font-size: 24px;
+            color: white; 
+        }
+        #main {
+            padding: 20px;
+            background: #fff;
+            color: #333;
+            border: #e8491d 3px solid;
+        }
+        h1 {
+            color: #333;
+        }
+        p {
+            font-size: 1.2em;
+            line-height: 1.6;
+            color: #666;
+        }
+        .button {
+            position: absolute;
+            bottom: 10px;
+            left: 50%;
+            transform: translateX(-50%);
+            padding: 20px 40px;
+            background-color: #cc0000;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+            font-size: 20px;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+        
+        .small-image {
+            width: 200px;
+        }
+        video {
+            max-width: 30%; 
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <header id="cabecera">
+        <div class="container">
+            <h1>QUIEN SOY</h1> 
+        </div>
+    </header>
+    <section id="main">
+        <div class="container">
+            <h2>Información Personal</h2>
+            <p>Nombre: David Martínez Garcia</p>
+            <p>Estudiante del Grado Diseño y Desarrollo de Videojuegos de la Universidad Rey Juan Carlos</p>
+            <p>Dirección: Calle Estambul, 77, Alcorcón, Madrid</p>
+            <h2>Hobbies</h2>
+            <p>Me encanta jugar al ajedrez. Me ayuda a mantener mi mente aguda y a desarrollar estrategias.</p>
+            <img src="../imagenesyvideos/ajedrez.jpg" alt="Imagen de una partida de ajedrez" class="small-image">
+            <p>También disfruto tocando el piano. Aquí tienes un video de una de mis interpretaciones:</p>
+            <video controls>
+                <source src="../imagenesyvideos/piano.mp4" type="video/mp4">
+                
+            </video>
+        </div>
+    </section>
+    <a href="../index.html" class="button">Página Principal</a>
+</body>
+</html>
